@@ -15,8 +15,7 @@ class sample
             }
             void print()
             {
-                cout<<"latitude"<<lat<<"\n
-                "<<"longitude"<<lon<<endl;
+                cout<<"latitude"<<lat<<"\n"<<"longitude"<<lon<<endl;
             }
             // operator overloading function
             sample operator+(sample &c)
