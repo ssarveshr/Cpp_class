@@ -25,7 +25,15 @@ class sample
                 t.lat=lat+c.lat;
                 return t;
             }
+            
 };
+sample operator+(sample &c)
+            {
+                sample t;
+                t.lon=lon+c.lon;
+                t.lat=lat+c.lat;
+                return t;
+            }
 int main()
 {
     sample c1(2,4);
