@@ -1,4 +1,12 @@
-// program to add longitude and latitude and storing in a varible LOC  
+// In the following C++ program, two classes representing 
+// geographical coordinates (longitude and latitude) are defined. 
+// The program uses operator overloading to add two coordinate objects together.
+
+// What will be the output of the program when executed?
+// Identify and correct any errors in the code, if present.
+// Explain how operator overloading is implemented in this code.
+
+
 #include<iostream>
 using namespace std;
 class sample
