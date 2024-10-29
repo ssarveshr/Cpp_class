@@ -6,7 +6,7 @@ using namespace std;
 
 class n1
 {
-    public:
+    public:n1(){}
     int i;
     n1(int a)
     {
@@ -16,7 +16,7 @@ class n1
 
 class n2
 {
-    public:
+    public:n2(){}
     int j;
     n2(int a)
     {
@@ -38,3 +38,7 @@ class add:public n1,public n2
         cout<<i<<" + "<<j<<" = "<<sum<<endl;
     }
 };
+int main()
+{
+    
+}
