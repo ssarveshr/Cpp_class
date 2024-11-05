@@ -4,7 +4,7 @@
     ->can't be used with a constructor 
     ->can be used with a destructor
     ->cant not be static members of the classes 
-
+function overriding the defination differs and prototype is same
 
 */
 #include<iostream>
