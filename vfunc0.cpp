@@ -8,7 +8,7 @@ class base
     public: 
     virtual void vfunc()
     {
-        cout<<"basic vfunc\n";
+        cout<<"base vfunc\n";
     }
 };
 class derived1:public base
