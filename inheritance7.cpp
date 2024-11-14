@@ -35,11 +35,11 @@ int main()
 {
     derived3 ob;
     //ob.i=10;//Ambigous Statement(compiler doesnt know which copy of base class)
-    //ob.derived1::i=10;
+    ob.derived1::i=10;
     ob.j=20;
     ob.k=30;
-    //ob.sum=ob.derived1::i;
-    ob.sum=ob.j+ob.k;
+    ob.sum=ob.derived1::i;
+    //ob.sum=ob.j+ob.k;
     cout<<ob.sum<<endl;
 }
 
