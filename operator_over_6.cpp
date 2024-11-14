@@ -45,11 +45,6 @@ int main()
     p2->show();
     delete p1;
     delete p2;
-    // system("cd ..");
-    // system("python");
-    SYSTEMTIME d;
-    GetSystemTime(&d);
-    cout<<d.wYear;
 
 }
 /*new and delete are specific class the use of the operator on any other type of data causes the
