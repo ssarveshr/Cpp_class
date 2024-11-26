@@ -15,14 +15,14 @@ class Base
     public:int i;
 };
 
-//class derived1:virtual public base
-class derived1:public Base
+class derived1:virtual public Base
+// class derived1:public Base
 {
     public:int j;
 };
 
-//class derived2:virtual public base
-class derived2:public Base
+class derived2:virtual public Base
+// class derived2:public Base
 {
     public:int k;
 };
@@ -34,11 +34,11 @@ class derived3:public derived1,public derived2
 int main()
 {
     derived3 ob;
-    //ob.i=10;//Ambigous Statement(compiler doesnt know which copy of base class)
-    //ob.derived1::i=10;
+    ob.i=10;//Ambigous Statement(compiler doesnt know which copy of base class)
+    ob.derived1::i=10;
     ob.j=20;
     ob.k=30;
-    //ob.sum=ob.derived1::i;
+    ob.sum=ob.derived1::i;
     ob.sum=ob.j+ob.k;
     cout<<ob.sum<<endl;
 }
