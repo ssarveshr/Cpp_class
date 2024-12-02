@@ -3,7 +3,7 @@
 #include<iostream>
 using namespace std;
 
-void xhandler(int test)
+void xhandler(int test) throw () 
 {
     try
     {
@@ -14,8 +14,30 @@ void xhandler(int test)
         if(test==2)
             throw 12.5;
     }
-    catch(...)
+    // catch(...)
+    // {
+    //     cout<<"Caught Exception\n";
+    // }
+    
+    catch(int i)
     {
-        cout<<"Caught Exception\n";
+        cout<<"A\n";
     }
+    catch(char c)
+    {
+        cout<<"B\n";
+    }
+    catch(double d)
+    {
+        cout<<"C\n";
+    }
+
+}
+int main()
+{
+    xhandler(0);
+    xhandler(1);
+    xhandler(2);
+    cout<<"end\n";
+    return 0;
 }
