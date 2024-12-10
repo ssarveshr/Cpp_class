@@ -26,18 +26,14 @@ class derived2:public base
 };
 int main()
 {
-    base *p,b;
+    base *p;
+    //base b; (error) abstract class cannot have a object
     derived1 d1;
     derived2 d2;
-    p=&b;
-    p->vfunc();
-    p=&b;
-    p->vfunc();
     p=&d1;
     p->vfunc();
     p=&d2;
-    p->vfunc();/* as derived 2 does not redefine vfunc (void vfunc) when function call occurs
-                it will call the vfunc of base class*/
+    p->vfunc()
 }
 /*
 If their is no meaningfull defination of a virtual function within the basae class 
@@ -47,5 +43,5 @@ If their is no meaningfull defination of a virtual function within the basae cla
     the above two cases can be handled by using pure virtual function.
 
     syntax: 
-            virtual type function_name(parameter_list)=0;
+            virtual return_type function_name(parameter_list)=0;
 */

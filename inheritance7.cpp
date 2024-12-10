@@ -34,12 +34,20 @@ class derived3:public derived1,public derived2
 int main()
 {
     derived3 ob;
+<<<<<<< HEAD
     ob.i=10;//Ambigous Statement(compiler doesnt know which copy of base class)
+=======
+    //ob.i=10;//Ambigous Statement(compiler doesnt know which copy of base class)
+>>>>>>> 94b19d334770d2774d4974a2f4bd59094cf8205b
     ob.derived1::i=10;
     ob.j=20;
     ob.k=30;
     ob.sum=ob.derived1::i;
+<<<<<<< HEAD
     ob.sum=ob.j+ob.k;
+=======
+    //ob.sum=ob.j+ob.k;
+>>>>>>> 94b19d334770d2774d4974a2f4bd59094cf8205b
     cout<<ob.sum<<endl;
 }
 

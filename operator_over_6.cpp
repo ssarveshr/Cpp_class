@@ -1,6 +1,6 @@
 #include<iostream>
 #include<stdlib.h>
-#include<windows.h>
+//#include<windows.h>
 using namespace std;
 class loc
 {
@@ -47,7 +47,7 @@ int main()
     delete p2;
 
 }
-/*new and delete are specific class the use of the operator on any other type of data causes the
+/*new and delete are specific to class the use of the operator on any other type of data causes the
  *original new or delete to be called 
  *New and delete operators can also be overloaded globally outside of any class any declaration 
    */

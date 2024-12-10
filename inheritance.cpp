@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+/*we can create a general class that defines proeprties common to a set of related items
+=======
 /*we can creat a general class that defines proeprties common to a set of related items
+>>>>>>> 081ec9536d2261c91d746698b7c096d4e16cfb53
   class that is inherited is class the base class and a class that is inheriting the
   members of another class is called the derivied class
   BASE CLASS access controll

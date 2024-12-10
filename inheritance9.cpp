@@ -2,7 +2,7 @@
 *function overriding is used to describe virtual functions' redefination by a derivied class
     ->virtual function cant be friend
     ->can't be used with a constructor 
-    ->can be used with a destructor
+    ->can't be used with a destructor
     ->cant not be static members of the classes 
 function overriding the defination differs and prototype is same
 
