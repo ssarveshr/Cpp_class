@@ -1,3 +1,5 @@
+/*Develop a C++ program to create a text file, check file created or not, if created it will write some
+text into the file and then read the text from the file.*/
 #include <fstream>
 #include <iostream>
 #include <bits/stdc++.h>

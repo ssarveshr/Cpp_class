@@ -1,3 +1,4 @@
+/*Develop a C++ program to write and read time in/from binary file using fstream*/
 #include <fstream>
 #include <iostream>
 #include <bits/stdc++.h>

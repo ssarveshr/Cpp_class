@@ -1,3 +1,5 @@
+/*Develop a function which throws a division by zero exception and catch it in catch block. Write a
+C++ program to demonstrate usage of try, catch and throw to handle exception.*/
 #include <fstream>
 #include <iostream>
 #include <bits/stdc++.h>

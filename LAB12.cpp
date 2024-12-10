@@ -1,3 +1,4 @@
+/*Develop a C++ program that handles array out of bounds exception using C++.*/
 #include <fstream>
 #include <iostream>
 #include <bits/stdc++.h>
