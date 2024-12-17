@@ -9,8 +9,11 @@ class Base
     char beta;
     float gamma;
     public:
-    Base(int a, char b, float g) : alpha(a),beta(b),gamma(g)
+    Base(int a,char b,float g)
     {
+        alpha=a;
+        beta=b;
+        gamma=g;
         cout<<"In base class constructor\n";
     }
     void display()
@@ -24,7 +27,7 @@ class Base
 class Derived : public Base
 {
     public:
-    Derived(int a, char b, float g) : Base(a,b,g)
+    Derived(int a,char b,float g) : Base(a,b,g)
     {
         cout<<"In derived class constructor\n";
     }
