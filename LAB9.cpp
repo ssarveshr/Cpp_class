@@ -2,7 +2,7 @@
 text into the file and then read the text from the file.*/
 #include <fstream>
 #include <iostream>
-#include <bits/stdc++.h>
+#include<stdlib.h>
 using namespace std;
 int main()
 {
@@ -18,8 +18,10 @@ int main()
     fh<< "This is the second line of the file. " << endl;
     fh.close();
     fh.open("File_1.txt",ios::in);
-    fh.getline(str,90,'\n'); cout<<str<<endl;
-    fh.getline(str,90,'\n'); cout<<str<<endl;
+    fh.getline(str,90,'\n'); 
+    cout<<str<<endl;
+    fh.getline(str,90,'\n'); 
+    cout<<str<<endl;
     fh.close();
     return 0;
 }

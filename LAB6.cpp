@@ -6,10 +6,9 @@ class Number
 {
     int val;
     public:
-    Number(int n) : 
-    val(n) 
+    Number(int n)
     { 
-        //NTG
+        val=n;
     }
     void display()
     {

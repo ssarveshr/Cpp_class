@@ -2,7 +2,6 @@
 C++ program to demonstrate usage of try, catch and throw to handle exception.*/
 #include <fstream>
 #include <iostream>
-#include <bits/stdc++.h>
 using namespace std;
 char s[40]={"Division by zero"};
 void fun()
