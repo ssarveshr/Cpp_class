@@ -8,7 +8,7 @@ int main()
     try
     {
         cout<<"Inside Try block\n";
-        cout<<"Still inside try block";
+        cout<<"Still inside try block\n";
     }
     catch(int i)
     {
