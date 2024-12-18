@@ -8,7 +8,7 @@
 !->syntax: template<class Ttpye> return_type func_name(paprameter_list){
 !        //body of the function
 !    }
-  ttype is a plae holder for the datatype used by the function.This will be automatically replaced by
+  ttype is a place holder for the datatype used by the function.This will be automatically replaced by
   an actually data type by the compiler when it creats a specific verison of the function  
 */
 #include<iostream>
