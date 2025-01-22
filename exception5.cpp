@@ -11,12 +11,12 @@ void xhandler(int test)
         }
         else
         {
-            throw "Value of Zero";
+            throw "Value of Zero ";
         }
     }
     catch(int i)
     {    
-        cout<<"Caught Exception "<<i;
+        cout<<"Caught Exception "<<i<<endl;
     }
     catch(const char *str)
     {    

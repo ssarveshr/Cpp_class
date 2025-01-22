@@ -10,7 +10,7 @@ class MyException
     int what;
     MyException()
     {
-        *str_what=0;
+        str_what[0]='\0';
         what=0;
 
     }
@@ -26,10 +26,13 @@ int main()
     int i;
     try
     {
-        cout<<"Enter a +ve no";
+        cout<<"Enter a +ve no ";
         cin>>i;
-        if(i<0)
-            throw MyException("Not +ve\n",i);
+        if(i<0){
+            MyException a("Not +ve",i);
+            // throw MyException("Not +ve",i);
+            throw a;
+        }
     }
     catch(MyException e)
     {
