@@ -33,7 +33,7 @@ int main()
     p=&d1;
     p->vfunc();
     p=&d2;
-    p->vfunc()
+    p->vfunc();
 }
 /*
 If their is no meaningfull defination of a virtual function within the base class 
