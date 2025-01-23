@@ -36,7 +36,7 @@ int main()
     p->vfunc()
 }
 /*
-If their is no meaningfull defination of a virtual function within the basae class 
+If their is no meaningfull defination of a virtual function within the base class 
     example: A base class may not be able to define an object sufficiently to allow a base class 
              virtual function to be created or we will want to ensure that all derived classes 
              override a virtual function 

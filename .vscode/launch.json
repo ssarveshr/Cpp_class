@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/SAMUDRA/OTHERS/Cpp_class",
-      "program": "c:/SAMUDRA/OTHERS/Cpp_class/build/Debug/outDebug",
+      "cwd": "c:/Users/samud/OneDrive/Desktop/Cpp_class",
+      "program": "c:/Users/samud/OneDrive/Desktop/Cpp_class/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
