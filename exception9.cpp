@@ -5,13 +5,13 @@
 #include<iostream>
 #include <ostream>
 using namespace std;
-char zbdr[]={"ZeroByDivisionError"};
+char s[]={"ZeroByDivisionError"};
 int Division(int a,int b)
 {
     try
     {
         if(b<0)
-            throw zbdr;
+            throw s;
         else
         {
             return a/b;
